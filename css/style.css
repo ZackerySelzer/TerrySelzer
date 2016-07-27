@@ -3,5 +3,51 @@ body{
 	font-size: 20px;
 	margin: 0;
 	padding: 0;
+	width: 90%
 	height: 100%;
+}
+p{
+	line-height: 1.4em;
+}
+
+.column1of3 {
+	float: left;
+	width: 22%;
+	margin: 10px;
+	}
+
+#navigation ul{
+	position: fixed;
+	list-style: none;
+	padding-left: 60px;
+	padding-top: 30px;
+
+}
+
+#navigation li{
+	padding right: 3px;
+	border: 2px solid #0088dd;
+	padding: 10px;
+	margin: 10px;
+	font-size: 22px;
+	font-weight: bold;	
+	color: rgb(13, 26, 129);
+}
+
+.column2of3 {
+	float: right;
+	width: 70%;
+	margin: 0px 70px 10px 10px;
+	padding-right: 40px;
+	padding-left: 30px;
+	padding-top: 20px;
+	background-color: white;
+}
+#footer{
+	margin: 1%;
+	background-color: white;
+}
+#footer{
+	width: 100%;
+	background-color: DarkCyan;
 }

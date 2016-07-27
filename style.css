@@ -1,17 +1,18 @@
-body{
 	background-color: rgb(200,200,200);
+body{
 	font-size: 20px;
 	margin: 0;
 	padding: 0;
 	height: 100%;
 }
 
-#navigation ul{
-	height: auto;
-	padding: 15px 0px;
-	}
 
-#navigation li{
+
+#navigation ul{
+	list-style: none;
+}
+#menu li
+{
 	font-size: 20px;
 	display: inline;
 	padding:1px;
